@@ -278,7 +278,7 @@ public static class ASEImportProcess {
         foreach (var tag in ctx.file.frameTags) {
             var clip = new AnimationClip();
             clip.name = ctx.mainName + "_clip_" + tag.name;
-
+            clip.frameRate = ctx.settings.fps;
             // Set loop property
             var loop = tag.properties.Contains("loop");
             var settings = AnimationUtility.GetAnimationClipSettings(clip);

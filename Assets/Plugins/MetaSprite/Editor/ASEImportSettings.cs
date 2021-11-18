@@ -23,6 +23,8 @@ public class ASEImportSettings {
 
     public int border = 3;
 
+    public int fps = 25;
+
     public AnimatorController outputController;
 
     public Vector2 PivotRelativePos {

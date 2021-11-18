@@ -24,6 +24,7 @@ namespace MetaSprite.Internal {
 
             EditorGUILayout.PropertyField(property.FindPropertyRelative("densePack"));
             EditorGUILayout.PropertyField(property.FindPropertyRelative("border"));
+            EditorGUILayout.PropertyField(property.FindPropertyRelative("fps"));
             EditorGUILayout.PropertyField(property.FindPropertyRelative("outputController"));
         }
         
